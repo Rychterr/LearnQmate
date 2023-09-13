@@ -1,0 +1,83 @@
+{
+    "section": {
+        "shoppingCart": {
+            "metadata": "sap.ui.documentation.TitleLink",
+            "id": "__link19",
+            "windowName": "Shopping Cart"
+        }
+
+    },
+    "categories": {
+        "desktopComputers": {
+            "bindingContextPath": "/ProductCategories*'DC')"
+        }
+
+    },
+    "button": {
+
+        "acceptCookies": {
+            "metadata": "sap.m.Button",
+            "id": "__button6"
+        },
+
+        "filter": {
+            "metadata": "sap.m.Button",
+            "id": "*masterListFilterButton"
+        },
+
+        "filterOk":{
+            "metadata": "sap.m.Button",
+            "id": "*categoryFilterDialog-acceptbutton"
+        },
+
+        "filterCancel":{
+            "metadata": "sap.m.Button",
+            "id": "*categoryFilterDialog-cancelbutton"
+        },
+
+        "filterReset":{
+            "metadata": "sap.m.Button",
+            "id": "*categoryFilterDialog-detailresetbutton"
+        },
+
+        "filterBack": {
+            "metadata": "sap.m.Button",
+            "id": "*categoryFilterDialog-backbutton"
+        },
+
+        "addToCart": {
+            "metadata": "sap.m.Button",
+            "id": "__button12"
+        },
+
+        "categoryBack": {
+            "metadata": "sap.m.Button",
+            "id": "*page-navButton"
+        }
+        
+    },
+    "filterTitles":{
+
+        "availability": {
+        "title": "Availability"
+        },
+
+        "price": {
+        "title": "Price"
+        },
+
+        "supplier": {
+        "title": "Supplier"
+        }
+    },
+
+    "availailityFilters":{
+        "available": "Available",
+        "outOfStock": "Out of Stock",
+        "discontinued": "Discontinued"
+    },
+
+    "searchBars":{
+        "homeId": "*searchField"       
+    }
+}
